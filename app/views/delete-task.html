@@ -1,0 +1,9 @@
+<div class="modal-header">
+	<div class="alert alert-error">
+		<strong>Warning!</strong> You up to delete {{task.name}} task.
+	</div>
+</div>
+<div class="modal-body delete-task-body" ng-controller="DeleteTaskCtrl">
+	<button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+	<button type="button" class="btn btn-danger" ng-click="deleteTask()" data-dismiss="modal" aria-hidden="true">Delete</button>
+</div>

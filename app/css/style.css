@@ -1,0 +1,28 @@
+.delete-task-body {
+	text-align:center;
+}
+
+.filter-low, .filter-medium, .filter-high, .filter-done, .filter-all {
+	width:15px;
+	height:15px;
+	display:block;
+	border-radius:4px;
+	background:#fcf8e3;
+	border:1px solid #ddd;
+}
+
+.filter-medium {
+	background:#d9edf7;
+}
+
+.filter-high {
+	background:#f2dede;
+}
+
+.filter-done {
+	background:#dff0d8;
+}
+
+.filter-all {
+	background:url('../img/filter-all.png') no-repeat;
+}
