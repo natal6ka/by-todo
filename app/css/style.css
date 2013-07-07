@@ -26,3 +26,7 @@
 .filter-all {
 	background:url('../img/filter-all.png') no-repeat;
 }
+
+.navbar-fixed-bottom li span {
+	margin:0 0 0 10px;
+}
